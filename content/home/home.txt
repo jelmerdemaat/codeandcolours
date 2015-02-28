@@ -1,5 +1,2 @@
-Title: Blog
-
+Title: Home
 ----
-
-Text: Tekst hier!

@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
 
-<h1><?php echo $page->title() ?></h1>
+<h1><?= $page->title() ?></h1>s
 
 <?php snippet('footer') ?>

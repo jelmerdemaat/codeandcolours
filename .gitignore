@@ -2,3 +2,10 @@
 /site/accounts
 /assets/avatars
 /thumbs/*
+node_modules/
+.sass-cache/
+assets/css/maps/
+
+*.css.map
+*.sassc
+*.scssc

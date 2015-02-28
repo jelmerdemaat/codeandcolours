@@ -29,6 +29,10 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
-// c::set('debug', 'true');
+c::set('home', 'blog');
+
+c::set('locale', 'nl_NL.UTF8');
+
+c::set('debug', 'true');
 
 // c::set('rewrite', false);
