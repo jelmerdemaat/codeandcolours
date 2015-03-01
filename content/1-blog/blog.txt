@@ -4,6 +4,6 @@ Title: Blog
 
 Text: 
 
-Tekst hier!
+Ideas by Jelmer, a front-ender.
 
-**en tekst hier.**
+(link: //twitter.com/jelmerdemaat text: Twitter) | (link: //github.com/jelmerdemaat text: GitHub) | (link: //codepen.io/jelmerdemaat/ text: CodePen)

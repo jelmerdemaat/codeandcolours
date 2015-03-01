@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
-    sass = require('gulp-sass')
-    sourcemaps = require('gulp-sourcemaps')
+    sass = require('gulp-sass'),
+    sourcemaps = require('gulp-sourcemaps'),
+    autoprefixer = require('gulp-autoprefixer'),
     filter = require('gulp-filter'),
     browsersync = require('browser-sync'),
     reload = browsersync.reload;
@@ -16,6 +17,15 @@ gulp.task('sass', function() {
     .pipe(sass({
       errLogToConsole: true,
       indentedSyntax: true
+    }))
+    .pipe(autoprefixer({
+      browsers: [
+        '> 2%',
+        'last 2 versions',
+        'Firefox ESR',
+        'Opera 12.1',
+        'IE > 8'
+      ]
     }))
     .pipe(sourcemaps.write('./maps/'))
     .pipe(gulp.dest('./assets/css/'))

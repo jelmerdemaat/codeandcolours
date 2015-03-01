@@ -6,7 +6,7 @@
 // Cool
 
 $aqua:  #7FDBFF
-$blue:  #0074D9
+$blue:  darken(#0074D9, 10%)
 $navy:  #001F3F
 $teal:  #39CCCC
 $green: #2ECC40
@@ -17,7 +17,7 @@ $lime:  #01FF70
 
 $yellow:  #FFDC00
 $orange:  #FF851B
-$red:     #FF4136
+$red:     darken(#FF4136, 15%)
 $fuchsia: #F012BE
 $purple:  #B10DC9
 $maroon:  #85144B
@@ -29,6 +29,10 @@ $silver: #ddd
 $gray:   #aaa
 $black:  #333
 
+*,
+*:before,
+*:after
+  box-sizing: border-box
 
 html,
 body
@@ -36,6 +40,7 @@ body
   font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif
   font-weight: 300
   font-size: 18px
+  line-height: 1.4
 
 body
   padding: 0 1em
@@ -47,22 +52,56 @@ h3,
 h4,
 h5,
 h6
-  color: $navy
+  color: $black
   font-weight: 600
 
   a
     color: inherit
     text-decoration: none
 
+  & + p
+    margin-top: 0
+
 a
   color: $blue
-  // text-decoration: none
-  // border-bottom: 1px solid
+  font-weight: 600
 
   &:focus,
   &:hover,
   &:active
-    color: darken($blue, 10%)
+    color: $white
+    background: $blue
+    text-decoration: none
+
+h1
+  font-size: 2em
+
+h2
+  color: $red
+  font-size: 1.5em
+
+h3
+  color: $blue
+  font-size: 1.4em
+
+h4
+  font-size: 1.3em
+
+h5
+  font-size: 1.2em
+
+h6
+  font-size: 1.1em
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
+  margin-top: 0.5em
+  margin-bottom: 0
 
 header,
 main,
@@ -72,10 +111,37 @@ article,
 div
   overflow: hidden
 
+article
+  margin-top: 2em
+
+time
+  color: $gray
+  font-size: 0.85em
+
+  & + h1,
+  & + h2
+    margin-top: 0
+
+pre
+  font-size: 0.9em
+  margin: 2em 0
+  padding: 1.5em
+  overflow-x: auto
+  border: 1px solid $red
+  resize: both
+
+  code
+    display: block
+
+.read-more
+  display: block
+  float: left
+  clear: both
+
 .wrap
   min-width: 21em
   max-width: 35em
-  margin: auto
+  margin: 2em auto
 
 ::selection
   color: white

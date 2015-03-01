@@ -2,4 +2,10 @@ Title: Code and Colours
 
 ----
 
-Text: 
+Intro:
+
+Ideas by Jelmer, a front-ender.
+
+(link: //twitter.com/jelmerdemaat text: Twitter) | (link: //github.com/jelmerdemaat text: GitHub) | (link: //codepen.io/jelmerdemaat/ text: CodePen)
+
+----

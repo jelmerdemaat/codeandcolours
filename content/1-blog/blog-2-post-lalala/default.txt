@@ -2,4 +2,35 @@ Title: Blog 2 post lalala
 
 ----
 
-Text: HOI!
+Text: 
+
+Lorizzle shizzle my nizzle crocodizzle go to hizzle black amizzle, shiz adipiscing elizzle. Nullizzle pizzle velit, aliquet , suscipit quizzle, boofron vel, shit. Pellentesque eget tortor. Boom shackalack erizzle. Fusce nizzle brizzle daahng dawg tempizzle daahng dawg. Yo own yo' nibh izzle turpizzle. Fizzle in tortizzle. Pellentesque shiz rhoncus nisi. In hizzle get down get down platea dictumst. Bizzle dapibizzle. Fo shizzle tellizzle urna, pretizzle pimpin', mattizzle sure, eleifend vitae, nunc. Shizzle my nizzle crocodizzle dang. Integer sempizzle velit yo mamma yippiyo.
+
+```css
+article
+  margin-top: 2em
+
+time
+  color: $gray
+  font-size: 0.85em
+
+  & + h1,
+  & + h2
+    margin-top: 0
+
+pre
+  font-size: 0.9em
+  margin: 1em 0
+  padding: 1em
+  overflow-x: auto
+  resize: both
+  background: #eee
+```
+
+Phasellizzle interdum volutpat tellizzle. Ut stuff adipiscing lorizzle. Mammasay mammasa mamma oo sa things stuff. Mofo sapizzle uhuh ... yih!, ultrices nizzle, accumsizzle owned, fermentizzle quizzle, pede. Dizzle nec shut the shizzle up. Etizzle check out this ornare ante. Maurizzle sheezy. Vestibulum mammasay mammasa mamma oo sa pede shiz nibh commodo commodo. Yo boofron dolizzle sizzle shizzle my nizzle crocodizzle, consectetuer adipiscing elizzle. Sizzle izzle dawg. Quisque i'm in the shizzle owned, sodalizzle izzle, the bizzle a, eleifend a, daahng dawg.
+
+Maecenizzle at mi. Tellivizzle eros. condimentizzle, ghetto boofron crackalackin fo, metus libero you son of a bizzle purus, break it down bow wow wow bow wow wow mi cool quizzle. Cras sheezy fo shizzle. Dizzle i saw beyonces tizzles and my pizzle went crizzle lectus, pizzle fizzle, ornare shizznit, fo ac, tellizzle. Stuff yo mamma black. Break it down condimentum mi in nibh. I'm in the shizzle uhuh ... yih! euismizzle felis. Break yo neck, yall ultrices nisl i saw beyonces tizzles and my pizzle went crizzle erizzle. Boom shackalack posuere lacinia mi. Its fo rizzle funky fresh. Shut the shizzle up nisl metus, fo shizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle, eleifend sed, doggy , nisi. Sheezy vulputate cool fizzle.
+
+----
+
+Date: 2015-03-01
